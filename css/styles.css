@@ -1,0 +1,201 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c65;
+}
+
+#logo-container {
+  padding: auto;
+}
+
+/* features */
+#features {
+  text-align: center;
+  background-color: #ffff;
+  /* width: 100%; */
+  position: relative;
+  z-index: 1;
+}
+
+.feats{
+  padding: 7%;
+}
+/* features */
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tetsty-logos {
+  border-radius: 100%;
+  width: 20%;
+  padding: 3%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* testimonial */
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 0 5% 3% 5%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* Press */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.titsec{
+  padding: 3% 15% 10%;
+}
+
+.topcontainer {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.col-lg-6 {
+  padding-top: 10%;
+}
+
+.iphone6 {
+  /* align-items: center; */
+  width: 300px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* display: block; */
+  transform: rotate(25deg);
+
+}
+
+.tilt-phone{
+  left: 60%;
+
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* display: block; */
+  position: absolute;
+}
+@media (max-width: 925px) {
+  .iphone6 {
+    /* align-items: center; */
+    width: 300px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: block; */
+    transform: rotate(0);
+    /* display: block; */
+
+  }
+
+  .tilt-phone{
+    text-align: center;
+    position: static;
+  }
+  .jagga {
+    text-align: center;
+  }
+
+}
+.tindog {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+.boottrapimage {
+  margin: auto 2% 5% 2%;
+}
+
+.download-button {
+  margin-top: 5%;
+}
+
+.features-header {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* Awesome Font */
+.fa-circle-check, .fa-bullseye, .fa-heart {
+  font-size: 3rem;
+  color: #ef8172;
+  line-height: 2;
+}
+
+.fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover {
+  color: #ff4c68;
+}
+
+/* Awesome Font */
+/* Pricing*/
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+.priz{
+  margin: 3%;
+}
+/* Pricing*/
+
+/* Call to action*/
+#cta{
+  background-color: #ff4c65;
+  text-align: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+  padding: 7%;
+}
+.buts{
+  margin: 20px 15px 0;
+}
+.CtA{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #ffff;
+}
+/* Call to action*/
+
+#footer{
+  text-align: center;
+  padding: 10%;
+}
+
+.socials{
+  padding: 1% 1.5%;
+  color:black;
+}
